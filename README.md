@@ -7,9 +7,10 @@ No guarantee for the correctness of the figures.
 Consult a tax advisor if necessary.
 
 # Requirements
-Python >= 3.12   
-pandas==2.2.3   
-yfinance==0.2.56  
+- Python >= 3.12   
+- pandas==2.2.3   
+- yfinance==0.2.56
+
 Older versions should work aswell.
 
 # Setup
