@@ -25,7 +25,7 @@ Trades:
 
 ![ib_flex_trades_75](https://github.com/user-attachments/assets/0f8fa027-df81-4d53-a320-85ee7cd5c095)
 
-More characteristics can also be selected, but this makes the file easy to read by humans.
+The selected characteristics is more then needed for the script to work, but this makes the file easy to read by humans.
 
 Run the created Flex Query and select XML as format and a user-defined date range. Select the year for which the figures are to be determined, e.g. 01.01.2024 - 31.12.2024.
 Currently, last year cannot be selected for the Flex Query period, so a query via API is not possible.
