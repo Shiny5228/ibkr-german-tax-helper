@@ -37,3 +37,6 @@ Insert the file path in line 19 in the script and execute it.
 - Gains or losses from shares bought or sold via executed options may not be calculated correctly. The costs for the options can be taken into account as the purchase price for the shares.
 - The lines in KAP-INV for sold ETFs are not displayed. Each ETF must be checked individually here.
 - Vorabpauschale is not calculated.
+
+# Feedback
+If I have forgotten assets or specific trades or if there are better ways to get the numbers, I am happy to receive feedback.
