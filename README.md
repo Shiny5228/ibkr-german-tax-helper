@@ -1,5 +1,5 @@
 # IBKR German Tax Helper
-The German Informational Tax Report from Interactive Brokers is often incorrect and is delivered very late (July and later). The script can be used to calculate the figures for the tax return independently and earlier. The figures shown here correspond most closely to the Activity Report from Interactive Brokers. If the tax office asks for proof of capital gains or losses, the Activity Report should be submitted and not the German Informational Tax Report.
+The German Informational Tax Report from Interactive Brokers is often incorrect and is delivered very late (July and later). This rudimentary script can be used to calculate the figures for the tax return independently and earlier. The figures shown here correspond most closely to the Activity Report from Interactive Brokers. If the tax office asks for proof of capital gains or losses, the Activity Report should be submitted and not the German Informational Tax Report.
 
 # Disclaimer
 No tax, investment or legal advice.
@@ -26,8 +26,8 @@ Trades:
 
 More characteristics can also be selected, but this makes the file easy to read by humans.
 
-Create a report in XML for a user-defined date range, the year for which the figures are to be determined, e.g. 01.01.2024 - 31.12.2024.
-Currently, the year cannot be selected for the Flex Query period, so a query via API is not possible.
+Run the created Flex Query and select XML as format and a user-defined date range. Select the year for which the figures are to be determined, e.g. 01.01.2024 - 31.12.2024.
+Currently, last year cannot be selected for the Flex Query period, so a query via API is not possible.
 
 Insert the file path in line 19 in the script and execute it.
 
