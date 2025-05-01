@@ -1,5 +1,3 @@
-# NO TAX, LEGAL OR FINANCIAL ADVICE
-
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
@@ -7,6 +5,8 @@
 #  "pandas"
 # ]
 # ///
+
+# NO TAX, LEGAL OR FINANCIAL ADVICE
 
 from pathlib import Path
 
