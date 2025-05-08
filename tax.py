@@ -1,8 +1,10 @@
 # /// script
-# requires-python = ">=3.12"
+# requires-python = ">=3.13"
 # dependencies = [
-#  "yfinance",
-#  "pandas"
+#   "dotenv>=0.9.9",
+#   "lxml>=5.4.0",
+#   "pandas>=2.2.3",
+#   "yfinance>=0.2.59",
 # ]
 # ///
 
