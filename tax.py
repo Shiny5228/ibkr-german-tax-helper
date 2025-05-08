@@ -8,15 +8,27 @@
 
 # NO TAX, LEGAL OR FINANCIAL ADVICE
 
+import os
 from pathlib import Path
 
 import pandas as pd
 import yfinance as yf
+from dotenv import load_dotenv
 
 pd.options.mode.copy_on_write = True
 
-# insert path to file here, e.g. C:\Users\user\downloads\file.xml
-path_to_file = Path(r"INSERT PATH TO XML HERE")
+# load environment variables from .env file
+# make sure to set the PATH_TO_FILE environment variable in .env file
+load_dotenv()
+file_path = os.getenv("PATH_TO_FILE")
+if file_path is None:
+    raise ValueError("Please set the PATH_TO_FILE environment variable.")
+
+# load the local XML file
+path_to_file = Path(file_path)
+
+print(path_to_file)
+
 df_trades = pd.read_xml(path_to_file, xpath=".//Trade")
 df_divi = pd.read_xml(path_to_file, xpath=".//CashTransaction")
 
